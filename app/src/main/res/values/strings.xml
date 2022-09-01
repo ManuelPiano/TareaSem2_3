@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TareaSem2_3</string>
+    <string-array name="operar">
+        <item>sumar</item>
+        <item>restar</item>
+        <item>multiplicar</item>
+        <item>dividir</item>
+    </string-array>
+</resources>

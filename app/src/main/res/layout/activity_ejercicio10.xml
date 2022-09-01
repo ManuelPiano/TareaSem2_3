@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ejercicio10">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="22dp"
+        android:text="Ingrese clave" />
+
+    <EditText
+        android:id="@+id/et10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/verificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="verificar"
+        android:text="Verificar"
+        android:textSize="22dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

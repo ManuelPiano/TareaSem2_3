@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.primera.tareasem2_3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_bgicon"
+        android:label="Tarea Semana 2 y 3"
+        android:roundIcon="@drawable/bgapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TareaSem2_3"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ejercicio14"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicio13"
+            android:exported="false"
+            android:label="Ejercicio 13"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Ejercicio12"
+            android:exported="false"
+            android:label="Ejercicio 12"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".webview"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicio11"
+            android:exported="false"
+            android:label="Ejercicio 11"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".bienvenido"
+            android:exported="false"
+            android:label="Bienvenido"
+            android:parentActivityName=".ejercicio10" />
+        <activity
+            android:name=".ejercicio10"
+            android:exported="false"
+            android:label="Ejercicio 10"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio9_1"
+            android:exported="false"
+            android:label="Acerca de"
+            android:parentActivityName=".ejercicio9" />
+        <activity
+            android:name=".ejercicio9"
+            android:exported="false"
+            android:label="Ejercicio 9"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio8"
+            android:exported="false"
+            android:label="Ejercicio 8"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio7"
+            android:exported="false"
+            android:label="Ejercicio 7"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio6"
+            android:exported="false"
+            android:label="Ejercicio 6"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio5"
+            android:exported="false"
+            android:label="Ejercicio 5"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio4"
+            android:exported="false"
+            android:label="Ejercicio 4"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio3"
+            android:exported="false"
+            android:label="Ejercicio 3"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio2"
+            android:exported="false"
+            android:label="Ejercicio 2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ejercicio1"
+            android:exported="false"
+            android:label="Ejercicio 1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Menu Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
